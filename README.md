@@ -2,7 +2,6 @@
 
 ## Resources
 Data Source: schools_complete.csv, students_complete.csv
-
 Software: Python 3.9.7; Jupyter Notebook 6.4.11; Pandas 1.3.5
 
 ## Project Overview
