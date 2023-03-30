@@ -1,7 +1,7 @@
 # Analyzing School District Data using Jupyter Notebook & Pandas
 
 ## Resources
-Data Source: schools_complete.csv, students_complete.csv
+Data Sources: schools_complete.csv, students_complete.csv
 
 Software: Python 3.9.7; Jupyter Notebook 6.4.11; pandas 1.3.5
 
