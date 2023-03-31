@@ -56,4 +56,7 @@ Charter schools received the highest % Overall Passing (90.4%), while District s
 - As a whole, charter schools out-performed the public district schools across all metrics. However, more analysis will be required to glean if the effect is due to school practices or the fact that charter schools tend to serve smaller student populations per school. 
 
 ---
-View the Project on [GitHub](https://github.com/kenlo94/school_district_analysis)
+<div style="display: flex; justify-content: space-between;">
+    <div>Return to the <a href="https://kenlo94.github.io/">Homepage</a></div>
+    <div>View the Project on <a href="https://github.com/kenlo94/school_district_analysis">GitHub</a></div>
+</div>
