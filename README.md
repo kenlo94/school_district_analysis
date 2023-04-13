@@ -5,8 +5,8 @@ Data sources: schools_complete.csv, students_complete.csv
 
 Software: Python 3.9.7; Jupyter Notebook 6.4.11; pandas 1.3.5
 
-## Project Overview
-**Use the school data provided to complete the analysis of a school district.**
+## Project Objectives
+### Use the school data provided to complete the analysis of a school district.
 
 Tasks include:
 1. Creating a table displaying the school district's key metrics
