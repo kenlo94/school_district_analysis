@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07QV7C307D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-07QV7C307D');
+    </script>
+    <meta charset="utf-8">
+    <title>Analyzing School District Data using Jupyter Notebook & Pandas</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="22"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="25"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="28"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="31"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="35"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="39"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="43"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="47"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a
+            id="Analyzing_School_District_Data_using_Jupyter_Notebook__Pandas_0"></a>Analyzing School District Data
+        using Jupyter Notebook &amp; Pandas</h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="3" data-line-end="4">Data sources: schools_complete.csv,
+        students_complete.csv</p>
+    <p class="has-line-data" data-line-start="5" data-line-end="6">Software: Python 3.9.7; Jupyter Notebook 6.4.11;
+        pandas 1.3.5</p>
+    <h2 class="code-line" data-line-start=7 data-line-end=8><a id="Project_Objectives_7"></a>Project Objectives</h2>
+    <hr class="my-hr">
+    <h3 class="code-line" data-line-start=8 data-line-end=9><a
+            id="Use_the_school_data_provided_to_complete_the_analysis_of_a_school_district_8"></a>Use the school data
+        provided to complete the analysis of a school district.</h3>
+    <p class="has-line-data" data-line-start="10" data-line-end="11">Tasks include:</p>
+    <ol>
+        <li class="has-line-data" data-line-start="11" data-line-end="12">Creating a table displaying the school
+            district’s key metrics</li>
+        <li class="has-line-data" data-line-start="12" data-line-end="13">Creating a table displaying the key metrics
+            for each individual school</li>
+        <li class="has-line-data" data-line-start="13" data-line-end="14">Creating tables displaying the top 5 and
+            bottom 5 schools based on % Overall Passing</li>
+        <li class="has-line-data" data-line-start="14" data-line-end="15">Creating tables displaying the average math
+            and reading scores received by students in each grade level at each school</li>
+        <li class="has-line-data" data-line-start="15" data-line-end="17">Creating tables displaying the school
+            performance based on the budget per student, school size, and type of school</li>
+    </ol>
+    <h2 class="code-line" data-line-start=17 data-line-end=18><a id="Results__Analysis_17"></a>Results &amp; Analysis
+    </h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="18" data-line-end="19"><img src="Images/district.PNG" alt="Screenshot">
+    </p>
+    <p class="has-line-data" data-line-start="20" data-line-end="21">The school district comprises 15 schools, with a
+        student population of 39,170 and a budget of $24,649,428. The average math and reading scores are 78.9% and
+        81.8%, while the corresponding average percentages for passing math and reading are 74.9% and 85.8%,
+        respectively. The overall passing percentage is 65.1%.</p>
+    <p class="has-line-data" data-line-start="22" data-line-end="24"><img src="Images/schools.PNG" alt="Screenshot"><br>
+        The table above presents key metrics for each school, including the number of students which ranges from 427 to
+        4,976, as well as the % Overall Passing, which varies from 52.9% to 91.3%.</p>
+    <p class="has-line-data" data-line-start="25" data-line-end="27"><img src="Images/top.PNG" alt="Screenshot"><br>
+        Based on % Overall Passing, the highest performer was Cabrera High School, which achieved a score of 91.3%.</p>
+    <p class="has-line-data" data-line-start="28" data-line-end="30"><img src="Images/bottom.PNG" alt="Screenshot"><br>
+        Based on % Overall Passing, the lowest performer was Rodriguez High School, which achieved a score of 52.9%.</p>
+    <p class="has-line-data" data-line-start="31" data-line-end="32"><img src="Images/math.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="33" data-line-end="34">The table above displays the average math scores
+        received by students in each grade level at each school. The highest performers were the 10th graders from
+        Griffin High School with an average math score of 84.2 and the lowest performers were the 10th graders from
+        Huang High School with an average math score of 75.9.</p>
+    <p class="has-line-data" data-line-start="35" data-line-end="36"><img src="Images/reading.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="37" data-line-end="38">The table above displays the average reading scores
+        received by students in each grade level at each school. The highest performers were the 12th graders from
+        Holden High School with an average reading score of 84.6 and the lowest performers were the 12th graders from
+        Huang High School with an average reading score of 80.3.</p>
+    <p class="has-line-data" data-line-start="39" data-line-end="40"><img src="Images/budget.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="41" data-line-end="42">Schools that spent less than $585 per student
+        received the highest % Overall Passing (90.3%), while schools that spent $645-680 per student received the
+        lowest % Overall Passing (53.5%).</p>
+    <p class="has-line-data" data-line-start="43" data-line-end="44"><img src="Images/size.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="45" data-line-end="46">Schools that had less than 1000 students received
+        the highest % Overall Passing (89.8%), while schools that had between 2000-5000 students received the lowest %
+        Overall Passing (58.2%).</p>
+    <p class="has-line-data" data-line-start="47" data-line-end="48"><img src="Images/type.PNG" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="49" data-line-end="50">Charter schools received the highest % Overall
+        Passing (90.4%), while District schools received the lowest % Overall Passing (53.6%).</p>
+    <h2 class="code-line" data-line-start=51 data-line-end=52><a id="Drawing_Insights_51"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <ul>
+        <li class="has-line-data" data-line-start="53" data-line-end="54">As a whole, schools with higher budgets did
+            not yield better test results. By contrast, schools with higher spending $645-680 per student actually
+            underperformed compared to schools with smaller budgets (&lt;$585 per student).</li>
+        <li class="has-line-data" data-line-start="54" data-line-end="55">As a whole, smaller, and medium sized schools
+            dramatically out-performed large sized schools on passing math performances (89-91% passing vs 58%).</li>
+        <li class="has-line-data" data-line-start="55" data-line-end="57">As a whole, charter schools out-performed the
+            public district schools across all metrics. However, more analysis will be required to glean if the effect
+            is due to school practices or the fact that charter schools tend to serve smaller student populations per
+            school.</li>
+    </ul>
+    <hr>
+    <p class="has-line-data" data-line-start="58" data-line-end="59">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
